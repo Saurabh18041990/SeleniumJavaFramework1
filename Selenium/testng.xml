@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Assesment">
+<test thread-count="5" name="Login">
+		<classes>
+			<class name="Work.Login" />
+		</classes>
+		</test> <!-- Test -->
+	<test thread-count="5" name="Tshirt">
+		<classes>
+			<class name="Work.Tshirt" />
+		</classes>
+	</test> <!-- Test -->
+	  <test thread-count="5" name="Tshirtselection">
+		<classes>
+			<class name="Work.Tshirtselection"/>
+		</classes>
+	</test> <!-- Test --><test thread-count="5" name="Summary
+	">
+		<classes>
+			<class name="Work.Summary" />
+		</classes>
+		</test> <!-- Test -->
+  
+</suite> <!-- Suite -->

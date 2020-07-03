@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="123" duration-ms="97668" started-at="2020-07-03T15:21:23 IST" finished-at="2020-07-03T15:23:00 IST">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="26959" started-at="2020-07-03T15:21:23 IST" finished-at="2020-07-03T15:21:49 IST">
+      <class name="Work.Login">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Work.Login@1f7030a6]" name="Login" duration-ms="26924" started-at="2020-07-03T15:21:23 IST" finished-at="2020-07-03T15:21:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- Work.Login -->
+    </test> <!-- Login -->
+    <test name="Tshirt" duration-ms="9901" started-at="2020-07-03T15:21:49 IST" finished-at="2020-07-03T15:21:59 IST">
+      <class name="Work.Tshirt">
+        <test-method status="PASS" signature="Tshirt()[pri:0, instance:Work.Tshirt@5faeada1]" name="Tshirt" duration-ms="9897" started-at="2020-07-03T15:21:50 IST" finished-at="2020-07-03T15:21:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tshirt -->
+      </class> <!-- Work.Tshirt -->
+    </test> <!-- Tshirt -->
+    <test name="Tshirtselection" duration-ms="17531" started-at="2020-07-03T15:21:59 IST" finished-at="2020-07-03T15:22:17 IST">
+      <class name="Work.Tshirtselection">
+        <test-method status="PASS" signature="TshirtSelection()[pri:0, instance:Work.Tshirtselection@52feb982]" name="TshirtSelection" duration-ms="17527" started-at="2020-07-03T15:21:59 IST" finished-at="2020-07-03T15:22:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TshirtSelection -->
+      </class> <!-- Work.Tshirtselection -->
+    </test> <!-- Tshirtselection -->
+    <test name="Summary" duration-ms="43228" started-at="2020-07-03T15:22:17 IST" finished-at="2020-07-03T15:23:00 IST">
+      <class name="Work.Summary">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Work.Summary@80503]" name="setup" is-config="true" duration-ms="23724" started-at="2020-07-03T15:20:59 IST" finished-at="2020-07-03T15:21:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="shopping()[pri:0, instance:Work.Summary@80503]" name="shopping" duration-ms="43226" started-at="2020-07-03T15:22:17 IST" finished-at="2020-07-03T15:23:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopping -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:Work.Summary@80503]" name="Logout" is-config="true" duration-ms="1101" started-at="2020-07-03T15:23:00 IST" finished-at="2020-07-03T15:23:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- Work.Summary -->
+    </test> <!-- Summary -->
+  </suite> <!-- 123 -->
+</testng-results>
